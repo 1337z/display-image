@@ -1,4 +1,4 @@
-# show-image
+# display-image
 
 > Show pictures in terminal
 
