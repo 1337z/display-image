@@ -1,1 +1,9 @@
 # NPM ignore file
+
+# Ignore source files
+src/
+
+# Ignore linters
+.eslintrc
+.prettierignore
+.prettierrc
