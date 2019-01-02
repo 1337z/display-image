@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "./node_modules/.bin/prettier --write **/*",
+    "formatjs": "./node_modules/.bin/prettier --write **/*.js",
+    "formatts": "./node_modules/.bin/prettier --write **/*.ts",
+    "compile": "tsc && npm run formatjs"
   },
   "repository": {
     "type": "git",
@@ -22,5 +26,13 @@
   "bugs": {
     "url": "https://github.com/1337z/show-image/issues"
   },
-  "homepage": "https://github.com/1337z/show-image#readme"
+  "homepage": "https://github.com/1337z/show-image#readme",
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.15.3",
+    "tslint": "^5.12.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.2.2"
+  }
 }
