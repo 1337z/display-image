@@ -1,0 +1,26 @@
+{
+  "name": "show-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1337z/show-image.git"
+  },
+  "keywords": [
+    "display",
+    "image",
+    "terminal",
+    "ascii",
+    "art"
+  ],
+  "author": "MarvinJWendt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1337z/show-image/issues"
+  },
+  "homepage": "https://github.com/1337z/show-image#readme"
+}
